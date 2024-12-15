@@ -252,6 +252,15 @@ footer { /*Ajustamos las reglas del footer*/
     background-color: #1E1E26;
 }
 
+.logo_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 33rem;
+    bottom: 9rem;
+}
+
 #caja_busqueda { /*Aqui hacemos una caja para meter el boton y la barrita de busqueda*/
     display: flex;
     justify-content: center;
@@ -303,6 +312,7 @@ footer { /*Ajustamos las reglas del footer*/
 
 #white_sportit { /*Realizamos este id para no afectar el primer logo ya aquel tiene que ser negro y este blanco*/
     color: white;
+    margin-left: 0.5rem;
 }
 
 #copyright { /*Realizamos el texto ultimo del footer*/
