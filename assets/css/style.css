@@ -116,6 +116,10 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     margin-left: auto;
 }
 
+.text_purple { /*Separamos el texto de los 1,2,3*/
+    padding-left: 1rem;
+}
+
 .purple_box { /*Ajustando las cajas que tendras las opciones moradas*/
     display: flex;
     align-items: center;
