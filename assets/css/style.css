@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+    padding: 0x;
+    box-sizing: border-box;
+}
+
+body { /*Ajustando body*/
+    display: flex;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 224.5625rem;
+    width: 30rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+header { /*Ajustando el header*/
+    align-items: center;
+    display: flex;
+    height: 8.125rem;
+    justify-content: space-around;
+    width: 100%;
+}
+
+header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header*/
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.logo_box { /*Ajustamos una caja que contenga el loxo*/
+    display: flex;
+    height: 1.5625rem;
+    width: 6.73rem;
+    justify-content: space-evenly;
+}
+
+#hamburguesa { /*Ajustamos la hamburguesa*/
+    width: 3.75rem;
+    height: 3.75rem;
+    cursor: pointer;
+}
+
+
+#box_central_1 { /*Ajustamos la caja en dinde va la imagen del hombre con una raqueta*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 52.5rem;
+    width: 25rem;
+}
+
+#box_live_follow { /*Ajustamos una caja que este debajo del hombre con raqueta*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    text-align: end;
+    width: 25rem;
+    height: 27rem;
+}
+
+#box_live_follow button { /*Ajustamos el boton contact que esta en el hombre con raqueta*/
+    align-items: center;
+    background-color: #8B48BF;
+    border-radius: 3.125rem;
+    color: white;
+    display: flex;
+    height: 2.8rem;
+    justify-content: center;
+    width: 8.4rem;
+}
+
+#live_text { /*Ajustamos el texto grande que se encuentra debajo del hombre con raqueta*/
+    font-weight: bold;
+    font-size: 3.125rem;
+}
+
+#the_final_text { /*Ajustamos el texto que esta entre el texto grande y el boton*/
+    font-size: 1rem;
+}
+
+#blue_box { /*Ajustamos la siguiente caja que es de color azul*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #3CDDF3;
+    color: white;
+    height: 19.125rem;
+    width: 30rem;
+}
+
+#blue_box strong{ /*Aqui damos la orden de solo modificar la etiqueta strong que esta dentro de la caja azul*/
+    width: 27.5rem;
+    height: 5.5rem;
+    font-size: 2.25rem;
+}
+
+#blue_box p { /*Aqui solo modificamos la etiqueta p de la caja azul*/
+    font-size: 1rem;
+    height: 5.5rem;
+    width: 27.5rem;
+}
+
+#contenedor_3_morado { /*Aqui generamos la caja que tendra 3 opciones moradas*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 42.625rem;
+    width: 27.875rem;
+    margin-left: auto;
+}
+
+.purple_box { /*Ajustando las cajas que tendras las opciones moradas*/
+    display: flex;
+    align-items: center;
+    border-radius: 30px 0px 0px 30px;
+    background-color: #8b48bf30;
+    height: 2.6875rem;
+    width: 27.875rem;
+}
+
+.purple_box_123 {/*Ajustamos los circulos 123 mas morados*/
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #8B48BF;
+    height: 2.6875rem;
+    width: 4.3125rem;
+}
+
+.purple_text { /*Ajustamos el color del texto que esta abajo de los contenedores morados*/
+    color: #B3B2B7;
+}
+
+#bestotm_box { /*Creamos una caja que contenga la imagen de lebron, a lebron, best of the month el texto y el boton*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 29.875rem;
+    width: 27.8125rem;
+} 
+
+#bestotm_box strong { /*Aqui solo modificamos el texto con la etiqueta strong*/
+    font-size: 2.45rem;
+}
+
+#lebron_name { /*Aqui ajustamos el nombre de Lebron solamente*/
+    font-weight: bold;
+    color: black;
+}
+
+#text_lebron { /*Aqui ajustamos y cambiamos de color el textocque esta abajo de lebron*/
+    text-align: center;
+    width: 24.375rem;
+    height: 4.875rem;
+}
+
+#img_text_box { /*Aqui ajustamos un contenedor que tenga la imagen de lebron. el nombre lebron y su texto*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15.875rem;
+    justify-content: space-between;
+    width: 28.375rem;
+}
+
+#img_text_box img{ /*Aqui solo afectamos la pura imagen de lebron*/
+    position: relative;
+    top: 2rem;
+    
+}
+
+#lebron_box { /*Aqui creamos otra caja la cual solo contenga el nombre de lebron y su texto*/
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 13.68875rem;
+    padding-top: 2rem;
+    justify-content: space-evenly;
+    width: 27.8125rem;
+    color: #B9B9C1;
+}
+
+#bestotm_box button{ /*Aqui ajustamos el boton de more que esta en otm*/
+    width: 8.375rem;
+    height: 2.75rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #8B48BF;
+}
+
+#two_blue_box { /*Aqui generamos la segunda segunda caja azul*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3CDDF3;
+    color: white;
+    height: 22.875rem;
+    width: 30.25rem;
+}
+
+#two_blue_box p { /*Aqui solo afectamos las etiquetas p que esten adentro de la segunda caja azul*/
+    text-align: center;
+    width: 20.25rem;
+    height: 12rem;
+    font-size: 2.5rem;
+}
+
+#two_blue_box button { /*Aqui solo afectamos el puro boton de la segunda caja azul*/
+    color: white;
+    width: 8.4rem;
+    height: 2.8rem;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #000000a6;
+}
+
+ul { /*Le quitamos el padding y los asteriscos a las listas*/
+    list-style-type: none;
+    padding: 0px;
+}
+
+footer { /*Ajustamos las reglas del footer*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30rem;
+    height: 33.375rem;
+    background-color: #1E1E26;
+}
+
+#caja_busqueda { /*Aqui hacemos una caja para meter el boton y la barrita de busqueda*/
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 4.3rem;
+}
+
+#caja_busqueda button { /*Aqui solo afectamos el boton de la caja de busqueda*/
+    width: 4rem;
+    height: 2.625rem;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    text-align: center;
+    color: white;
+}
+
+#caja_busqueda p { /*Aqui afectamos la caja de busqueda como sus color radio y texto*/
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    width: 19.25rem;
+    height: 2.75rem;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-size: 0.82rem;
+    color: #A0A0A0;
+    margin-right: 1rem;
+}
+
+#contenedor_listas { /*Hacemos un contenedor para las 2 listas que tenemos*/
+    display: flex;
+    justify-content: space-between;
+    width: 20.25rem;
+    height: 8.85rem;
+    color: white;
+}
+
+#contenedor_listas li { /*Aqui solo afectamos el margen de las li de los ul*/
+    margin-bottom: 1rem;
+}
+
+#icons_box { /*Aqui hacemos una caja para los iconos de los redes sociales y plataformas*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30rem;
+    height: 2.66rem;
+}
+
+#white_sportit { /*Realizamos este id para no afectar el primer logo ya aquel tiene que ser negro y este blanco*/
+    color: white;
+}
+
+#copyright { /*Realizamos el texto ultimo del footer*/
+    font-size: 0.7rem;
+    color: #8C8C94;
+}
