@@ -12,7 +12,7 @@ body { /*Ajustando body*/
     justify-content: space-between;
     align-items: center;
     height: 224.5625rem;
-    width: 30rem;
+    width: 100vw;
 }
 
 button { /*Agregando puntero a los botones*/
@@ -28,7 +28,7 @@ header { /*Ajustando el header*/
     display: flex;
     height: 8.125rem;
     justify-content: space-around;
-    width: 100%;
+    width: 100vw;
 }
 
 header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header*/
@@ -55,7 +55,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     flex-direction: column;
     justify-content: space-between;
     height: 52.5rem;
-    width: 25rem;
+    width: 100vw;
 }
 
 #box_live_follow { /*Ajustamos una caja que este debajo del hombre con raqueta*/
@@ -64,7 +64,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     justify-content: space-between;
     align-items: end;
     text-align: end;
-    width: 25rem;
+    width: 100vw;
     height: 27rem;
 }
 
@@ -76,7 +76,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     display: flex;
     height: 2.8rem;
     justify-content: center;
-    width: 8.4rem;
+    width: 8.4;
 }
 
 #live_text { /*Ajustamos el texto grande que se encuentra debajo del hombre con raqueta*/
@@ -96,11 +96,11 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     background-color: #3CDDF3;
     color: white;
     height: 19.125rem;
-    width: 30rem;
+    width: 100vw;
 }
 
 #blue_box strong{ /*Aqui damos la orden de solo modificar la etiqueta strong que esta dentro de la caja azul*/
-    width: 27.5rem;
+    width: 80vw;
     height: 5.5rem;
     font-size: 2.25rem;
 }
@@ -108,7 +108,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
 #blue_box p { /*Aqui solo modificamos la etiqueta p de la caja azul*/
     font-size: 1rem;
     height: 5.5rem;
-    width: 27.5rem;
+    width: 80vw;
 }
 
 #contenedor_3_morado { /*Aqui generamos la caja que tendra 3 opciones moradas*/
@@ -116,9 +116,8 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     flex-direction: column;
     justify-content: space-evenly;
     height: 42.625rem;
-    width: 27.875rem;
-    margin-left: auto;
-}
+    width: 80vw;
+    margin-left: auto;}
 
 .text_purple { /*Separamos el texto de los 1,2,3*/
     padding-left: 1rem;
@@ -130,7 +129,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     border-radius: 30px 0px 0px 30px;
     background-color: #8b48bf30;
     height: 2.6875rem;
-    width: 27.875rem;
+    width: 80vw;
 }
 
 .purple_box_123 {/*Ajustamos los circulos 123 mas morados*/
@@ -154,7 +153,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     align-items: center;
     justify-content: space-between;
     height: 29.875rem;
-    width: 27.8125rem;
+    width: 100vw;
 } 
 
 #bestotm_box strong { /*Aqui solo modificamos el texto con la etiqueta strong*/
@@ -168,7 +167,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
 
 #text_lebron { /*Aqui ajustamos y cambiamos de color el textocque esta abajo de lebron*/
     text-align: center;
-    width: 24.375rem;
+    width: 55vw;
     height: 4.875rem;
 }
 
@@ -178,7 +177,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     align-items: center;
     height: 15.875rem;
     justify-content: space-between;
-    width: 28.375rem;
+    width: 100vw;
 }
 
 #img_text_box img{ /*Aqui solo afectamos la pura imagen de lebron*/
@@ -195,7 +194,7 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     height: 13.68875rem;
     padding-top: 2rem;
     justify-content: space-evenly;
-    width: 27.8125rem;
+    width: 60vw;
     color: #B9B9C1;
 }
 
@@ -218,12 +217,12 @@ header strong { /*Aqui solo ocupamos la etiqueta de strong que esta en el header
     background-color: #3CDDF3;
     color: white;
     height: 22.875rem;
-    width: 30.25rem;
+    width: 100vw;
 }
 
 #two_blue_box p { /*Aqui solo afectamos las etiquetas p que esten adentro de la segunda caja azul*/
     text-align: center;
-    width: 20.25rem;
+    width: 100vw;
     height: 12rem;
     font-size: 2.5rem;
 }
@@ -247,7 +246,7 @@ footer { /*Ajustamos las reglas del footer*/
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 30rem;
+    width: 100vw;
     height: 33.375rem;
     background-color: #1E1E26;
 }
@@ -257,14 +256,12 @@ footer { /*Ajustamos las reglas del footer*/
     justify-content: space-between;
     align-items: center;
     position: relative;
-    right: 33rem;
-    bottom: 9rem;
 }
 
 #caja_busqueda { /*Aqui hacemos una caja para meter el boton y la barrita de busqueda*/
     display: flex;
     justify-content: center;
-    width: 30rem;
+    width: 100vw;
     height: 4.3rem;
 }
 
@@ -292,8 +289,8 @@ footer { /*Ajustamos las reglas del footer*/
 
 #contenedor_listas { /*Hacemos un contenedor para las 2 listas que tenemos*/
     display: flex;
-    justify-content: space-between;
-    width: 20.25rem;
+    justify-content: space-around;
+    width: 100vw;
     height: 8.85rem;
     color: white;
 }
@@ -306,7 +303,7 @@ footer { /*Ajustamos las reglas del footer*/
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 30rem;
+    width: 100vw;
     height: 2.66rem;
 }
 
@@ -349,8 +346,44 @@ footer { /*Ajustamos las reglas del footer*/
 }
 
 @media (min-width: 769px) {
+
+
+    #contenedor_listas { /*Hacemos un contenedor para las 2 listas que tenemos*/
+        display: flex;
+        justify-content: space-around;
+        width: 40vw;
+        height: 8.85rem;
+        color: white;
+    }
+
+
+    #lebron_box { /*Aqui creamos otra caja la cual solo contenga el nombre de lebron y su texto*/
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 13.68875rem;
+        padding-top: 2rem;
+        justify-content: space-evenly;
+        width: 40vw;
+        color: #B9B9C1;
+    }
+    #img_text_box { /*Aqui ajustamos un contenedor que tenga la imagen de lebron. el nombre lebron y su texto*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 15.875rem;
+        justify-content: space-between;
+        width: 10vw;
+    }
+    #text_lebron {
+        width: 40vw;
+    }
+    #bestotm_box {
+        width: 40vw;
+    }
     body {
-        width: 90rem;
+        width: 100rem;
         height: 165rem;
     }
     #hamburguesa {
